@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Selenium by packages]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="com.Selenium(failed)">
+    <classes>
+      <class name="com.Selenium.OrangeHRM">
+        <methods>
+          <include name="VerifyMyInfo"/>
+          <include name="VerifyLogin"/>
+          <include name="NavigateToMyInfo"/>
+          <include name="TearDown"/>
+          <include name="EnterLoginDetails"/>
+          <include name="InitialiseBrowser"/>
+        </methods>
+      </class> <!-- com.Selenium.OrangeHRM -->
+      <class name="com.Selenium.newclass2">
+        <methods>
+          <include name="afterClass"/>
+          <include name="beforeSuite"/>
+          <include name="afterTest"/>
+          <include name="afterMethod"/>
+          <include name="beforeTest"/>
+          <include name="afterSuite"/>
+          <include name="testCase2"/>
+          <include name="testCase1"/>
+          <include name="beforeClass"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.Selenium.newclass2 -->
+      <class name="com.Selenium.newclass">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="beforeTest"/>
+          <include name="afterSuite"/>
+          <include name="testCase1"/>
+          <include name="afterClass"/>
+          <include name="beforeSuite"/>
+          <include name="afterTest"/>
+          <include name="beforeMethod"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- com.Selenium.newclass -->
+    </classes>
+  </test> <!-- com.Selenium(failed) -->
+</suite> <!-- Failed suite [Selenium by packages] -->
